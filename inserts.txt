@@ -1,0 +1,4 @@
+insert into categories (name) VALUES ('Education'), ('Business'), ('Entertainment'), ('Investment'), ('Love Story');
+insert into conditions (name) VALUES ('New'), ('Fine'), ('Fair'), ('Poor');
+insert into languages (name) VALUES ('English'), ('Tagalog'), ('Nihongo'), ('French'), ('French');
+insert into roles (name) VALUES ('Admin'), ('User')

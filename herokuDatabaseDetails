@@ -1,0 +1,32 @@
+Host: sql12.freesqldatabase.com
+
+Database name: sql12326015
+
+Database user: sql12326015
+
+Database password: g4UYj93g5F
+
+Port number: 3306
+
+
+
+
+heroku config:set APP_NAME=BOOKHOLDERS
+
+heroku config:set APP_ENV=local
+
+heroku config:set APP_KEY=base64:FR0ZcaopbjVzSgDkLUL93pytR+86VjtrToH3Xhp6vhY=
+
+heroku config:set APP_URL=https://agile-tor-34027.herokuapp.com/
+
+heroku config:set DB_HOST=sql12.freesqldatabase.com
+
+heroku config:set DB_PORT=3306
+
+heroku config:set DB_DATABASE=sql12326015
+
+heroku config:set DB_USERNAME=sql12326015
+
+heroku config:set DB_PASSWORD=g4UYj93g5F
+
+heroku open
